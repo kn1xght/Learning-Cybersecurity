@@ -33,5 +33,7 @@ To build a **STRONG CYBERSECURITY FOUNDATION** and transition into a **BLUE TEAM
 This repository serves as my personal study log and public portfolio.  
 Each folder mirrors a TryHackMe path and contains write-ups of every completed room.
 
-> ## 💬 Message to Readers
-Don’t hesitate to reach out with feedback or criticism about any of my notes or documentation — I’m always open to improving and learning from others.
+---
+
+## 💬 Message to Readers
+Don’t hesitate to reach out with feedback or criticism about any of my notes or documentation. I’m always open to improving and learning from others.
