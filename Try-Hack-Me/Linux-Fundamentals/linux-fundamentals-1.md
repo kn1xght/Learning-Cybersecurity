@@ -1,40 +1,36 @@
-Room: Linux Fundamentals 1
+## LINUX FUNDAMENTALS 1
+**Date:** 2025-10-11
 
-Date: 2025-10-11
+I was surprised to learn that Linux powers many things, examples being: PoS systems that I have personally used heavily when I worked in service jobs. Moreover, I was also unaware it’s used in critical infrastructures such as traffic light controllers or industrial sensors.
 
-Topic: Linux Basics
+Similar to how different Windows versions exist (7, 8, and 10), there are many different versions/distributions of Linux too. Notable ones are **Ubuntu**, **Debian**, and **Kali**. Depending on your role, you choose the one that suits the job best: **Ubuntu/Debian** for more general/blue-team roles, and **Kali** for offensive/pentesting roles.
 
-I was surprised to learn how widely Linux is used, from PoS (Point of Sale) systems I’ve personally worked with in service jobs, to critical infrastructures such as traffic light controllers and industrial sensors.
+The first release of Linux took place in **1991**.
 
-Just like Windows has multiple versions (7, 8, and 10), Linux also comes in many distributions. The most common ones include Ubuntu, Debian, and Kali. 
-The right distribution depends on your role — Ubuntu and Debian are typically used for general administration or blue-team (defensive) work, while Kali is geared toward offensive security and penetration testing.
+The **major** advantage of using something like Ubuntu is how lightweight it is. Of course, this also has its disadvantages: often there is no GUI (Graphical User Interface). A large part of interacting with these systems is using the **terminal**, which is purely text-based.
 
-The first release of Linux was in 1991.
+---
 
-One major advantage of Linux systems such as Ubuntu is that they’re lightweight and efficient. However, this also comes with a drawback: many versions don’t include a graphical user interface (GUI). 
-Instead, most interaction happens through the terminal, which is entirely text-based.
+## Basic Commands
+- `echo` — outputs any text that we provide  
+- `whoami` — finds out which user we’re currently logged in as  
+- `ls` — list directory contents  
+- `cd` — change directory  
+- `cat` — display/concatenate file contents  
+- `pwd` — print working directory  
 
-BASIC COMMANDS:
+## Intermediate Commands
+- `find` — more sophisticated search compared to hopping around with `cd`/`ls`  
+- `grep` — targeted text search (more focused than just viewing with `cat`)  
 
-echo — outputs any text that we provide
-whoami — displays the username of the current user
-ls — lists the contents of a directory
-cd — changes the current directory
-cat — displays or concatenates file contents
-pwd — prints the current working directory
+## Linux Operators (Redirection/Chaining)
+- `&` — run a command in the background of your terminal  
+- `&&` — combine multiple commands on one line; run the next only if the previous succeeds  
+- `>` — redirect command output to a file (overwrites the file)  
+- `>>` — redirect command output to a file but **append** instead of overwriting  
 
-INTERMEDIATE COMMANDS:
+---
 
-find — performs a more sophisticated search than using only cd and ls
-grep — searches through text or files for specific patterns; more targeted than cat
+## Takeaway
 
-LINUX OPERATORS:
-
-& — runs commands in the background of your terminal
-&& — chains multiple commands together in one line, executing the next only if the previous succeeds
-> — redirects command output to a file (overwrites existing content)
->> — redirects command output to a file but appends instead of overwriting
-
-Takeaway:
-I now understand that Linux is a powerful, lightweight, and widely used operating system that’s essential for both offensive and defensive cybersecurity work. 
-I’m becoming comfortable navigating the terminal and using basic commands to move around and manipulate files.
+Linux is lightweight and widely used across consumer and critical systems. I’m getting comfortable using the terminal and core commands to navigate and work with files.
