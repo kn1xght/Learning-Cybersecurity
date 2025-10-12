@@ -33,4 +33,4 @@ The **major** advantage of using something like Ubuntu is how lightweight it is.
 
 ### Takeaway
 
-Getting a feel for how Linux fits together and why it’s used across so many systems. Even the simple stuff like navigation and basic commands already shows how direct and efficient it is compared to other operating systems.
+After successfully installing Ubuntu on my device and experimenting with basic navigation and commands, I’m starting to notice major differences compared to the operating system I’ve used my whole life — Windows. Even though my use of these commands is still limited and slow, I can already tell that with practice and familiarity, this workflow could drastically speed up the entire work process.

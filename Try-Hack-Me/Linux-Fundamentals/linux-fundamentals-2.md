@@ -71,4 +71,4 @@ For example, `su username` allows us to switch to another user, and `su -` start
 ---
 
 ### Takeaway  
-Learned how permissions and directories shape workflow in Linux. It’s starting to feel less like random commands and more like a system built around clear logic and control.
+In this block, I learned how permissions and directories define the workflow in Linux, especially when it comes to web applications and the importance of properly dividing user access. Understanding who can read, write, or execute certain files is vital for keeping security tight and preventing unnecessary exposure across the system..

@@ -139,4 +139,4 @@ Example:
 
 ### Takeaway  
 
-Grasped higher concepts such as editing, managing, and automating in Linux. It’s definitely a rough landscape for beginners to cross, but once you get familiar with it, it’s easy to see why it’s the top choice for developers and cybersecurity professionals. 
+Grasping broader concepts like editing, managing, and automating within Linux is a rough landscape to navigate, especially for a beginner like me. Even so, it’s easy to see why Linux remains the top choice for developers and cybersecurity professionals — everything about it is built for control, flexibility, and speed.
