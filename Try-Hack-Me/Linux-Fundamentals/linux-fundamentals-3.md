@@ -1,4 +1,4 @@
-# Room: Linux Fundamentals 3  
+# LINUX FUNDAMENTALS 3 
 **Date:** 2025-10-12 
 
 So far, we have only stored text in files using a combination of the `echo` command and the pipe operators (`>` and `>>`). However, this isn’t an efficient way to handle data when working with files that contain multiple lines or larger amounts of text.
