@@ -33,4 +33,4 @@ The **major** advantage of using something like Ubuntu is how lightweight it is.
 
 ### Takeaway
 
-Linux is lightweight and widely used across consumer and critical systems. I’m getting comfortable using the terminal and core commands to navigate and work with files.
+Getting a feel for how Linux fits together and why it’s used across so many systems. Even the simple stuff like navigation and basic commands already shows how direct and efficient it is compared to other operating systems.

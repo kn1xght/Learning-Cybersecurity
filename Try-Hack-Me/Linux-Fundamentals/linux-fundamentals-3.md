@@ -139,4 +139,4 @@ Example:
 
 ### Takeaway  
 
-This part of the Linux Fundamentals path made me realize that real control over a system begins once you move beyond simply reading files. It involves editing them, managing running processes, and automating the system itself. I learned how to handle data properly at a basic level using editors like Nano and Vim, transfer files securely between machines, serve content from my own system, and control how and when processes run. Getting hands-on with systemctl, crontabs, and process management gave me my first real taste of what it feels like to administer and command a Linux environment.
+I’m beginning to see how Linux becomes a serious workstation — editing, managing, and automating instead of just running commands. It’s definitely a rough landscape for beginners to cross, but once you get familiar with it, it’s easy to see why it’s built for efficiency.

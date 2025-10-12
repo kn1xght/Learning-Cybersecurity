@@ -70,6 +70,5 @@ For example, `su username` allows us to switch to another user, and `su -` start
 
 ---
 
-### Takeaway
-I’m becoming more comfortable navigating the terminal and using basic commands to move around and manipulate files.  
-This lesson deepened my understanding of permissions, users, and critical directories. This knowledge forms the foundation for any serious cybersecurity professional.
+### Takeaway  
+Learned how permissions and directories shape workflow in Linux. It’s starting to feel less like random commands and more like a system built around clear logic and control.
