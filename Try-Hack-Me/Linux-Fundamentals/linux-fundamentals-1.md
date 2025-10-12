@@ -1,4 +1,4 @@
-## LINUX FUNDAMENTALS 1
+# LINUX FUNDAMENTALS 1
 **Date:** 2025-10-11
 
 I was surprised to learn that Linux powers many things, examples being: PoS systems that I have personally used heavily when I worked in service jobs. Moreover, I was also unaware it’s used in critical infrastructures such as traffic light controllers or industrial sensors.
@@ -11,7 +11,7 @@ The **major** advantage of using something like Ubuntu is how lightweight it is.
 
 ---
 
-## Basic Commands
+### Basic Commands
 - `echo` — outputs any text that we provide  
 - `whoami` — finds out which user we’re currently logged in as  
 - `ls` — list directory contents  
@@ -19,11 +19,11 @@ The **major** advantage of using something like Ubuntu is how lightweight it is.
 - `cat` — display/concatenate file contents  
 - `pwd` — print working directory  
 
-## Intermediate Commands
+### Intermediate Commands
 - `find` — more sophisticated search compared to hopping around with `cd`/`ls`  
 - `grep` — targeted text search (more focused than just viewing with `cat`)  
 
-## Linux Operators (Redirection/Chaining)
+### Linux Operators (Redirection/Chaining)
 - `&` — run a command in the background of your terminal  
 - `&&` — combine multiple commands on one line; run the next only if the previous succeeds  
 - `>` — redirect command output to a file (overwrites the file)  
@@ -31,6 +31,6 @@ The **major** advantage of using something like Ubuntu is how lightweight it is.
 
 ---
 
-## Takeaway
+### Takeaway
 
 Linux is lightweight and widely used across consumer and critical systems. I’m getting comfortable using the terminal and core commands to navigate and work with files.
