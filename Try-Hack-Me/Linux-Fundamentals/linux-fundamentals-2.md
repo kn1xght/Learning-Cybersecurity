@@ -1,40 +1,75 @@
-Room: Linux Fundamentals 1
+# LINUX FUNDAMENTALS 2 
 
-Date: 2025-10-11
+**Date:** 2025-10-12
 
-Topic: Linux Basics
+---
 
-I was surprised to learn how widely Linux is used, from PoS (Point of Sale) systems I’ve personally worked with in service jobs, to critical infrastructures such as traffic light controllers and industrial sensors.
+### Secure Shell (SSH)
+Secure Shell (SSH) is simply a protocol that allows encrypted communication between devices.  
+Using cryptography, any input we send in human-readable form is encrypted while travelling over a network and then decrypted once it reaches the remote machine.  
 
-Just like Windows has multiple versions (7, 8, and 10), Linux also comes in many distributions. The most common ones include Ubuntu, Debian, and Kali. 
-The right distribution depends on your role — Ubuntu and Debian are typically used for general administration or blue-team (defensive) work, while Kali is geared toward offensive security and penetration testing.
+---
 
-The first release of Linux was in 1991.
+### Command Arguments and Flags
+A majority of commands allow for arguments to be provided. These arguments are identified by a hyphen and a keyword known as a *flag* or *switch*.  
+For example, the command `ls` can be extended with the `-a` argument (short for `--all`) to display hidden folders within the working directory.  
+To find all available arguments or options for a command, we can use the `--help` flag.  
 
-One major advantage of Linux systems such as Ubuntu is that they’re lightweight and efficient. However, this also comes with a drawback: many versions don’t include a graphical user interface (GUI). 
-Instead, most interaction happens through the terminal, which is entirely text-based.
+---
 
-BASIC COMMANDS:
+### Manual Pages
+Manual pages are an excellent source of information for both system commands and applications available on a Linux machine.  
+They can be accessed directly on the system or found online.  
+To open this documentation, we use the `man` command followed by the name of the command we want to read about.  
+Example: `man ls`  
 
-echo — outputs any text that we provide
-whoami — displays the username of the current user
-ls — lists the contents of a directory
-cd — changes the current directory
-cat — displays or concatenates file contents
-pwd — prints the current working directory
+---
 
-INTERMEDIATE COMMANDS:
+### Commands for Filesystems
+| Command | Description |
+|----------|-------------|
+| `touch` | Create a file |
+| `mkdir` | Create a folder |
+| `cp` | Copy a file or folder |
+| `mv` | Move a file or folder (can also rename a file or folder) |
+| `rm` | Remove a file or folder (must use `-R` to remove a directory) |
+| `file` | Determine the type of a file |
 
-find — performs a more sophisticated search than using only cd and ls
-grep — searches through text or files for specific patterns; more targeted than cat
+---
 
-LINUX OPERATORS:
+### File and Folder Characteristics
+A file or folder can have several characteristics that determine what can be done with it and by whom. These include:  
+- **Read**  
+- **Write**  
+- **Execute**  
 
-& — runs commands in the background of your terminal
-&& — chains multiple commands together in one line, executing the next only if the previous succeeds
-> — redirects command output to a file (overwrites existing content)
->> — redirects command output to a file but appends instead of overwriting
+One of the great things about Linux is how granular its permissions system is.  
+While a user technically owns a file, permissions can also be set so that a group of users has either the same or different access levels to that file — without affecting the owner’s permissions.  
 
-Takeaway:
-I now understand that Linux is a powerful, lightweight, and widely used operating system that’s essential for both offensive and defensive cybersecurity work. 
-I’m becoming comfortable navigating the terminal and using basic commands to move around and manipulate files.
+---
+
+### Real-World Example
+A system user that runs a web server must have permissions to read and write files to make the web application function effectively.  
+However, web hosting companies need to allow their customers to upload their own website files without giving them the same permissions as the webserver system user.  
+Otherwise, one compromised account could endanger every other customer on the same server.  
+
+---
+
+### Switching Between Users
+Switching between users on a Linux system is straightforward thanks to the `su` command.  
+For example, `su username` allows us to switch to another user, and `su -` starts a login shell for that user.
+
+---
+
+### Important Root Directories
+- **`/etc`** — One of the most important root directories. It is the common location for storing system files and configurations used by the operating system.  
+- **`/var`** — Short for *variable data*, this directory stores data that is frequently accessed or modified by running services and applications (for example, logs and temporary databases).  
+- **`/root`** — Unlike `/home`, which contains users’ home directories, `/root` is the home directory for the *root* (system administrator) account.  
+- **`/tmp`** — Short for *temporary*, this volatile directory stores data that only needs to be accessed briefly. When the system restarts, its contents are cleared out.  
+  For penetration testing, `/tmp` can be a useful place to store enumeration scripts or temporary files.
+
+---
+
+### Takeaway
+I’m becoming more comfortable navigating the terminal and using basic commands to move around and manipulate files.  
+This lesson deepened my understanding of permissions, users, and critical directories — knowledge that forms the foundation for any serious cybersecurity professional.
