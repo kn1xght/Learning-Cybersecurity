@@ -40,7 +40,7 @@ to home routers and software-based solutions like **Snort**.
 
 | **Type** | **Description** |
 |-----------|-----------------|
-| **Stateful Firewall** | Inspects the entire connection rather than individual packets. Determines behavior dynamically. Consumes more resources but makes smarter decisions. |
+| **Stateful Firewall** | Inspects the entire connection rather than individual packets. Determines behavior dynamically. Consumes more resources but makes smarter decisions.
 | **Stateless Firewall** | Uses static rules to evaluate individual packets. Lightweight and fast, but less intelligent — only as good as the rules configured. |
 
 Example: Stateless firewalls are effective when handling large amounts of traffic, such as during a **DDoS attack**.
