@@ -19,7 +19,7 @@ It consists of the following modules:
 Color indicators show the current protection status:
 - 🟢 Green — Your device is protected, and no action is required.
 - 🟡 Yellow — There’s a security recommendation that needs your review.
-- 🔴 Red — Immediate attention is required to resolve a serious issue.
+- 🔴 Immediate attention is required to resolve a serious issue.
 
 ---
 
@@ -39,7 +39,7 @@ This section is divided into two main parts:
 - **Quarantined threats:** Threats isolated and prevented from running; removed periodically.
 - **Allowed threats:** Items flagged as threats but manually allowed by the user.
 
-⚠️ Only allow a flagged file to run if you are absolutely sure it’s safe.
+Only allow a flagged file to run if you are absolutely sure it’s safe.
 
 **Manage Settings options:**
 - **Real-time protection:** Stops malware from executing.
@@ -49,7 +49,7 @@ This section is divided into two main parts:
 - **Exclusions:** Skips scanning of specified files or directories.
 - **Notifications:** Displays critical alerts and system health messages.
 
-⚠️ Excluding files may leave your system vulnerable; use this only if necessary.
+Excluding files may leave your system vulnerable; use this only if necessary.
 
 **Ransomware protection** depends on *Controlled Folder Access*, which requires *Real-time Protection* to be active.
 
@@ -64,7 +64,7 @@ Network traffic moves in and out of your device through communication ports. The
 - **Private:** Intended for trusted networks like your home or office.
 - **Public:** The default profile for untrusted networks such as cafés or airports.
 
-⚠️ Unless you know exactly what you’re doing, keep your Windows Firewall enabled. Disabling it exposes your system to potential attacks.
+Unless you know exactly what you’re doing, keep your Windows Firewall enabled. Disabling it exposes your system to potential attacks.
 
 To open Windows Defender Firewall directly, use:
 `wf.msc`
