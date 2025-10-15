@@ -7,7 +7,6 @@ Notes and write-ups from my **TRYHACKME** learning paths — documenting my prog
 
 | Module | Description |
 |:--|:--|
-| [Introduction to Cybersecurity](Try-Hack-Me/Introduction-to-Cybersecurity) | Basic security concepts, common threats, CIA triad |
 | [Network Fundamentals](Try-Hack-Me/Network-Fundamentals) | Networking models, OSI/TCP, packets, and protocols |
 | [How the Web Works](Try-Hack-Me/How-the-Web-Works) | Web architecture, HTTP, DNS, and website functionality |
 | [Linux Fundamentals](Try-Hack-Me/Linux-Fundamentals) | Core Linux commands, permissions, processes, and users |
