@@ -8,7 +8,7 @@ Notes and write-ups from my **TRYHACKME** learning paths — documenting my prog
 | Module | Description |
 |:--|:--|
 | [Network Fundamentals](Try-Hack-Me/Network-Fundamentals) | Networking models, OSI/TCP, packets, and protocols |
-| [How the Web Works](Try-Hack-Me/How-the-Web-Works) | Web architecture, HTTP, DNS, and website functionality |
+| [How the Web Works](Try-Hack-Me/How-The-Web-Works) | Web architecture, HTTP, DNS, and website functionality |
 | [Linux Fundamentals](Try-Hack-Me/Linux-Fundamentals) | Core Linux commands, permissions, processes, and users |
 | [Windows Fundamentals](Try-Hack-Me/Windows-Fundamentals) | Windows internals, file system, registry, and PowerShell basics |
 
