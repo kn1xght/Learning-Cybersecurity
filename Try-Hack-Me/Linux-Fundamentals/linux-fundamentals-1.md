@@ -1,7 +1,15 @@
 # LINUX FUNDAMENTALS 1
+
 **Date:** 2025-10-11
 
-I was surprised to learn that Linux powers many things, examples being: PoS systems that I have personally used heavily when I worked in service jobs. Moreover, I was also unaware it’s used in critical infrastructures such as traffic light controllers or industrial sensors.
+**Linux**, although based on the UNIX model, is just like Windows — an operating system. It’s known for its stability, flexibility, and efficiency, making it widely used for servers, cybersecurity, programming, and embedded systems.
+
+Linux powers things such as:
+
+- Websites that you visit
+- Car entertainment/control panels
+- Point of Sale (PoS) systems such as checkout tills and registers in shops
+- Critical infrastructures such as traffic light controllers or industrial sensors
 
 Similar to how different Windows versions exist (7, 8, and 10), there are many different versions/distributions of Linux too. Notable ones are **Ubuntu**, **Debian**, and **Kali**. Depending on your role, you choose the one that suits the job best: **Ubuntu/Debian** for more general/blue-team roles, and **Kali** for offensive/pentesting roles.
 
